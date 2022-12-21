@@ -46,6 +46,11 @@ The data in the following table are average run time of 10 runs with same input 
 OpenMP has higher efficiency and better performance and it is easier to implement the algorithm. MPI version, due to larger overhead of communication between the nodes and trickier algorithm to manipulate the hash table, has a little speedup but is tiny when compared with OpenMP. The reason why MPI performs badly is because the hash table was implemented locally and did the combination and reduction in order over time. However, the shared memory is used globally in the OpenMP so that every thread can access it.
 
 
+# Google Doc :   
+
+https://docs.google.com/document/d/1KlLrPlR8rBJ6IU6oEiC3NK1MdQRgs-vVCVdFKy6ulpk/edit
+
+
 
 
 
